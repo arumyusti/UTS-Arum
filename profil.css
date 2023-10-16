@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: thistle;
+    margin: 0;
+    padding: 0;
+}
+
+.tampung {
+    background-color: thistle;
+    border: 15px solid plum;
+    padding: 50px;
+    margin: 20px;
+}
+nav ul{
+    list-style: none;
+    position: relative;
+    text-align: right;
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    color: rgb(55, 225, 49);
+}
+   
+   nav ul li:hover a{
+       color:#ef4040;
+   }
+   
+   nav ul li a{
+       display: block;
+       padding: 25px;
+    color: lightblue;
+    text-decoration: none;
+   }
+
+.bungkus {
+    display: flex;
+}
+
+.foto {
+    margin: 20px;
+}
+
+.foto img {
+    border: 5px solid plum;
+}
+
+.bio {
+    margin: 20px;
+    border: 5px solid plum;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+}

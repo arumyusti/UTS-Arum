@@ -1,0 +1,85 @@
+.sinopsis {
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    margin: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.383) ,rgba(255, 255, 255, 0.383)),url("jeno.jpg");
+    background-size: cover;
+}
+  
+.header{
+    
+    height: 150px;
+    background-color: #120808;
+    
+}
+
+h2{
+    color: rgb(6, 5, 5);
+    text-align: center;
+    margin: auto;
+}
+
+nav ul{
+    list-style: none;
+    position: relative;
+    text-align: right;
+    margin: auto;
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    color: rgb(55, 225, 49);
+}
+   
+nav ul li:hover a{
+    color:#191117;
+}
+   
+   nav ul li a{
+       display: block;
+       padding: 30px;
+    color: rgb(193, 27, 104);
+    text-decoration: none;
+   }
+
+#film1{
+    text-align: center;
+    border-style: outset;
+    height: 50px;
+    border-top: 7px solid black;
+}
+#film2{
+    text-align: center;
+    height: 50px;
+    border-style: outset;
+    border-top: 7px solid black;
+}
+#film3{
+    text-align: center;
+    border-style: outset;
+    height: 50px;
+    border-top: 7px solid black;
+}
+#film4{
+    text-align: center;
+    border-style: outset;
+    height: 50px;
+    border-top: 7px solid black;
+}
+#film5{
+    text-align: center;
+    border-style: outset;
+    height: 50px;
+    border-top: 7px solid black;
+}
+.navbar{
+    text-align: center;
+    background-color: rgb(48, 21, 1);
+}
